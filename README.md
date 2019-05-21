@@ -1,7 +1,7 @@
 # C-TreeView-in-DataTable
 
 ```sh
-treeView1.Nodes.Clear();
+            treeView1.Nodes.Clear();
             treeView1.Font = new System.Drawing.Font("Tahoma", 12);
             for (int i = 0; i < dizi.Length; i++)
             {
