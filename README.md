@@ -1,12 +1,20 @@
 # C-TreeView-in-DataTable
 
 ```sh
+
+string[] dizi = { "Sipariş Seri No", "Test Hata Kayıt Detayı", " Hatalı Pozisyon", "Hata Tanımı", "Yapılan İşlem", "Tamir eden Sicil", "Tamir Tarih Saat", "Master Kod", "Test TarihSaat", "Line", "Kart Kodu", "Kart Tanımı", "Oturum", "Ürün Tanımı", "Sipariş No", "Üretim Line" };
+
+            //*** clear
             treeView1.Nodes.Clear();
             treeView1.Font = new System.Drawing.Font("Tahoma", 12);
+            
+            //treeview column nodes add
             for (int i = 0; i < dizi.Length; i++)
             {
                 treeView1.Nodes.Add(dizi[i].ToString());
             }
+            
+            //treeview node in nodes add
             for (int i = 0; i < anatable.Rows.Count; i++)
             {
                 for (int k = 0; k < anatable.Columns.Count; k++)
