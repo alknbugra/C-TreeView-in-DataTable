@@ -29,5 +29,8 @@ string[] dizi = { "Sipariş Seri No", "Test Hata Kayıt Detayı", " Hatalı Pozi
                     }
                 }
             }
-            
-            ```
+                        
+```
+
+            https://github.com/alknbugra/C-TreeView-in-DataTable/blob/master/github1.PNG
+            https://github.com/alknbugra/C-TreeView-in-DataTable/blob/master/github2.PNG
